@@ -63,6 +63,10 @@ struct HitMeButtonView: View {
         LinearGradient(gradient: Gradient(colors: [Color.white.opacity(0.3), Color.clear]), startPoint: .top, endPoint: .bottom)
       }
     )
+    .overlay(
+      RoundedRectangle(cornerRadius: 21)
+        .strokeBorder(Color.white, lineWidth: 2.0)
+    )
     .foregroundColor(.white)
     .cornerRadius(21.0)
     .font(.title3.bold())
