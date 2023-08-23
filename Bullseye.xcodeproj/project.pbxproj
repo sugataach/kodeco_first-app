@@ -13,6 +13,8 @@
 		B95C59892A6A3C6F00E8A1BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95C59882A6A3C6F00E8A1BB /* Preview Assets.xcassets */; };
 		B96B82D92A75909D00688485 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B82D82A75909D00688485 /* Game.swift */; };
 		B96B82E12A75BC0300688485 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96B82E02A75BC0300688485 /* BullseyeTests.swift */; };
+		B9FCF9302A92CF11000CBAB4 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCF92F2A92CF11000CBAB4 /* TextViews.swift */; };
+		B9FCF9322A92DB09000CBAB4 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FCF9312A92DB09000CBAB4 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		B96B82D82A75909D00688485 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		B96B82DE2A75BC0300688485 /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96B82E02A75BC0300688485 /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
+		B9FCF92F2A92CF11000CBAB4 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		B9FCF9312A92DB09000CBAB4 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				B95C59832A6A3C6D00E8A1BB /* ContentView.swift */,
+				B9FCF92F2A92CF11000CBAB4 /* TextViews.swift */,
+				B9FCF9312A92DB09000CBAB4 /* Shapes.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95C59842A6A3C6D00E8A1BB /* ContentView.swift in Sources */,
+				B9FCF9302A92CF11000CBAB4 /* TextViews.swift in Sources */,
+				B9FCF9322A92DB09000CBAB4 /* Shapes.swift in Sources */,
 				B96B82D92A75909D00688485 /* Game.swift in Sources */,
 				B95C59822A6A3C6D00E8A1BB /* BullseyeApp.swift in Sources */,
 			);
