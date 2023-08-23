@@ -5,17 +5,17 @@ struct Shapes: View {
     VStack {
       Circle()
         .strokeBorder(Color.blue, lineWidth: 20)
-        .frame(width: 200, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+        .frame(width: 200, height: 100)
         .background(Color.green)
       RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Corner Radius@*/10.0/*@END_MENU_TOKEN@*/)
         .fill(Color.blue)
-        .frame(width: 200, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+        .frame(width: 200, height: 100)
       Capsule()
         .fill(Color.blue)
-        .frame(width: 200, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+        .frame(width: 200, height: 100)
       Ellipse()
         .fill(Color.blue)
-        .frame(width: 200, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/)
+        .frame(width: 200, height: 100)
     }
   }
 }
